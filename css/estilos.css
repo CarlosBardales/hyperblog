@@ -1,6 +1,7 @@
 body{
     
-    background: rgb(103, 90, 90);color: rgb(61, 72, 72);
+    background: rgb(103, 90, 90);
+    color: rgb(61, 72, 72);
     text-align:center;
     font-family: Arial;
     font-size: 16 px;
@@ -45,4 +46,11 @@ body{
 #post{
 background: #fff;
 padding: 1em;
+}
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
