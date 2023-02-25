@@ -1,25 +1,13 @@
 body{
-    color: rgb(62, 128, 128);
+    
+    background: rgb(103, 90, 90);color: rgb(61, 72, 72);
     text-align:center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     font-size: 16 px;
     margin: 0;
     padding: 0;
+    
 
-}
-
-#container
-{
-    width:70%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid gray;
-    margin: 5px auto;
-}
-
-#container h1 {
-    font-size: 20 px;
-    text-align: center;
 }
 
 #cabecera{
@@ -30,8 +18,31 @@ body{
     margin: 0;
     padding: 0.8em;
 }
+
+#cabecera #logo{
+    width: 20px;
+    vertical-align: middle;
+
+}
 #cabecera #tagline{
     padding: 0 0 0 1em;
     font-weight: normal;
     font-size: 0.8em;
+}
+#container
+{
+    width:70%;
+    padding: .1em;
+    text-align: left;
+    border: 1px solid gray;
+    margin: 5px auto;
+}
+
+#container h1 {
+    font-size: 20 px;
+    text-align: center;
+}
+#post{
+background: #fff;
+padding: 1em;
 }
